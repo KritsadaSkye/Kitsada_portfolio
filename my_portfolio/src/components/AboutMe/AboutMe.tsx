@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 export function AboutMe() {
     return (
         <>
-            <div className="relative flex justify-center w-full h-[659px] overflow-hidden">
+            <div className="relative flex justify-center w-full h-[659px]">
                 <div className="absolute inset-0 z-10 flex flex-col">
                         <div className="basis-2/3">
                             <Image src="/background/small-celestial-fog.png"
@@ -15,7 +15,7 @@ export function AboutMe() {
                             className="absolute z-20 top-0 left-10 rounded-e-full"/>
                             <div className="absolute z-20 max-w-7xl flex flex-col pt-32 w-full">
                                 <div>
-                                    <h1 className="text-violet-400 text-7xl font-semibold mb-2 pl-20">About Me</h1>
+                                    <h1 className="text-violet-400 text-6xl font-semibold mb-2 pl-40">About Me</h1>
                                     <h1 className="text-6xl font-bold mb-3 text-white justify-self-end"><TypeAnimation
                                         sequence={[
                                             // Same substring at the start will only be typed out once, initially
@@ -32,10 +32,10 @@ export function AboutMe() {
                                         /></h1>
                                 </div>
                                 <div>
-                                    <p className="text-white/85 text-xl pl-25 mb-6">
+                                    <p className="text-white/85 text-xl pl-50 mb-6">
                                        Hello! I'm Kitsada, a passionate front-end developer with a knack for creating engaging and user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive and visually appealing websites. I love turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding, you can find me exploring the latest tech trends or working on personal projects to sharpen my skills.
                                     </p>
-                                    <div className="flex flex-col pl-20">
+                                    <div className="flex flex-col pl-40">
                                             <h1 className="text-5xl font-bold mb-2 text-white">
                                             skills 
                                             </h1>
@@ -60,14 +60,14 @@ export function AboutMe() {
                         <div className="basis-1/3">
                             <Image src="/assets/profile/profile.jpg"
                             alt="profile"
-                            width={250}
-                            height={250}
-                            className="absolute top-15 right-70 rounded-e-full"/>
+                            width={320}
+                            height={320}
+                            className="absolute top-15 right-40 rounded-full"/>
                             <Image src="/background/moon art.png"
                                 alt="moon art"
                                 width={478}
                                 height={285}
-                                className="absolute bottom-5 right-10"
+                                className="absolute -bottom-10 right-140"
                             />
                         </div>
                 </div>
