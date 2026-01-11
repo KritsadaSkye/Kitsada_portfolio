@@ -1,13 +1,19 @@
-import { Nav } from "@/components/Nav/Nav"
+import { Header } from "@/components/Header/Header";
 import { AboutMe } from "@/components/AboutMe/AboutMe";
+import { Project } from "@/components/Project/Project";
 /*import { Project } from "@/components/Project/Project";
 import { Training } from "@/components/Training/Training"*/
 
 export default function Home() {
   return (
     <>
-      <Nav />
-      <AboutMe />
+      <Header />
+      <section id="about" className="scroll-mt-30">
+        <AboutMe />
+      </section>
+      <section id="project" className="scroll-mt-50">
+        <Project />
+      </section>
     </>
   );
 }
