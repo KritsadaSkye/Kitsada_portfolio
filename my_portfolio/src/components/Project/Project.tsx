@@ -38,7 +38,7 @@ export function Project() {
                             alt="cloud-line"
                             width={350}
                             height={210}
-                            className="absolute bottom-0 right-0"
+                            className="blockquote absolute bottom-0 right-0"
                         />
                     </div>
                 </div>

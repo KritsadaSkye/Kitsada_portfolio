@@ -4,7 +4,7 @@ import Link from 'next/dist/client/link';
 export function SecondProject() {
     return (
         <>
-            <div className="relative flex flex-row w-380 h-170 space-x-10 pl-15 z-10">
+            <div className="blockquote relative flex flex-row w-380 h-170 space-x-10 pl-15 z-10">
                 <div className="flex flex-col space-y-10">
                     <div className="flex justify-center items-start w-140 h-160">
                         <div className="absolute flex flex-col justify-center items-center w-140 h-80 bg-project/90 border-1 border-white/25 rounded-lg overflow-hidden h-95 p-10 shadow-md shadow-black -top-10">

@@ -12,7 +12,7 @@ import {
 export function CarouselSize() {
     return (
         <div className="flex justify-center pl-20">
-            <Carousel className="w-375 max-w-full">
+            <Carousel className="blockquote w-375 max-w-full">
                 <CarouselContent className="-ml-4">
 
                     {[1, 2, 3, 4, 5].map((_, i) => (

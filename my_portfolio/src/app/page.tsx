@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <section id="about" className="scroll-mt-30">
+      <section id="about" className="scroll-top-0">
         <AboutMe />
       </section>
       <section id="project" className="scroll-mt-0">
