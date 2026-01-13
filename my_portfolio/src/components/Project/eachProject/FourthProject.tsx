@@ -5,7 +5,7 @@ export function FourthProject() {
     return (
         <>
             <div className="relative flex flex-row w-380 h-170 space-x-10 pl-15 z-10">
-                <div className="w-180 h-fit bg-project border-1 border-white/25 rounded-lg overflow-hidden p-10 shadow-md shadow-black">
+                <div className="w-180 h-fit bg-project border-1 border-white/25 rounded-lg overflow-hidden p-10 shadow-xl shadow-black">
                     <div className="pr-8">
                         <h2 className="text-3xl font-bold mb-5">TidGame:</h2>
                         <ul className="space-y-4">

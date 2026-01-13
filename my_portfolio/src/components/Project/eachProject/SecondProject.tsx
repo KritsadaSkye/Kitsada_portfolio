@@ -28,7 +28,7 @@ export function SecondProject() {
                         </div>
                     </div>
                 </div>
-                <div className="w-180 h-fit bg-project border-1 border-white/25 rounded-lg overflow-hidden p-10 shadow-md shadow-black">
+                <div className="w-180 h-fit bg-project border-1 border-white/25 rounded-lg overflow-hidden p-10 shadow-xl shadow-black">
                     <div className="pl-8">
                         <h2 className="text-3xl font-bold mb-5">TidGame:</h2>
                         <ul className="space-y-4">

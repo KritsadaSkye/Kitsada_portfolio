@@ -22,7 +22,7 @@ export function Project() {
                         alt="project-line"
                         width={4}
                         height={2610}
-                        className="absolute ml-22.5 top-38"
+                        className="absolute ml-22.5 top-42"
                     />
                     <div className="flex flex-col items-center w-full z-10 gap-y-15">
 

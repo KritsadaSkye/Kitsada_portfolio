@@ -4,7 +4,7 @@ import Link from 'next/dist/client/link';
 export function ThirdProject() {
     return (
         <>
-            <div className="flex flex-row w-320 h-fit bg-project space-x-10 border-t-1 border-l-1 border-white/25 rounded-lg overflow-hidden p-10 shadow-md shadow-black mb-15">
+            <div className="flex flex-row w-320 h-fit bg-project space-x-10 border-t-1 border-l-1 border-white/25 rounded-lg overflow-hidden p-10 shadow-xl shadow-black mb-15">
                 <div>
                     <Image src="/assets/project/test1.png"
                         alt="test-image"
