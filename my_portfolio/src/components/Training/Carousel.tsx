@@ -6,7 +6,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"
-import { certificates } from "@/data/certifycate";
+import { certificates } from "@/data/certificate";
 
 
 export function CarouselSize() {

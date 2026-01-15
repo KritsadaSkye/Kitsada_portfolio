@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Certificate } from '@/data/certifycate';
+import { Certificate } from '@/data/certificate';
 
 export function Card({ certificate }: { certificate: Certificate }) {
     return (
