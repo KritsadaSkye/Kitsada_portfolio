@@ -1,5 +1,3 @@
-import * as React from "react"
-
 import { Card } from "@/components/Training/Card"
 import {
     Carousel,
@@ -8,16 +6,19 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"
+import { certificates } from "@/data/certifycate";
+
 
 export function CarouselSize() {
+
     return (
         <div className="flex justify-center pl-20">
-            <Carousel className="blockquote w-375 max-w-full">
+            <Carousel className="blockquote flex items-center w-375 max-w-full h-130">
                 <CarouselContent className="-ml-4">
 
-                    {[1, 2, 3, 4, 5].map((_, i) => (
-                        <CarouselItem key={i} className="flex justify-center md:basis-1/2 lg:basis-1/3">
-                            <Card />
+                    {certificates.map((certificate) => (
+                        <CarouselItem key={certificate.id} className="flex justify-center basis-1/3 z-30">
+                            <Card certificate={certificate} />
                         </CarouselItem>
                     ))}
 

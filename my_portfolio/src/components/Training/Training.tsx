@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { CarouselSize } from './Carousel'
 
 export function Training() {
+
     return (
         <>
             <div className="relative w-full pb-80">
@@ -21,7 +22,7 @@ export function Training() {
                         height={650}
                         className="absolute ml-22.5 top-42"
                     />
-                    <div className="w-full z-10 mt-10">
+                    <div className="w-full mt-10">
                         <CarouselSize />
                     </div>
                 </div>
