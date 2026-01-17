@@ -3,6 +3,7 @@ import { FirstProject } from './eachProject/FirstProject'
 import { SecondProject } from './eachProject/SecondProject'
 import { ThirdProject } from './eachProject/ThirdProject'
 import { FourthProject } from './eachProject/FourthProject'
+import { FifthProject } from './eachProject/FifthProject'
 
 export function Project() {
     return (
@@ -18,10 +19,10 @@ export function Project() {
                     <span className="text-6xl font-semibold bg-project-name bg-clip-text text-transparent ml-10 mt-2">Projects</span>
                 </div>
                 <div className="flex">
-                    <Image src="/background/project-line.png"
+                    <Image src="/background/project-line03.png"
                         alt="project-line"
                         width={4}
-                        height={2610}
+                        height={2920}
                         className="absolute ml-22.5 top-42"
                     />
                     <div className="flex flex-col items-center w-full z-10 gap-y-15">
@@ -33,6 +34,8 @@ export function Project() {
                         <ThirdProject />
 
                         <FourthProject />
+
+                        <FifthProject />
 
                         <Image src="/background/cloud-line-art.png"
                             alt="cloud-line"
