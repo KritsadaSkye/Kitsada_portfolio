@@ -3,7 +3,7 @@ import Link from 'next/dist/client/link';
 export function ThirdProject() {
     return (
         <>
-            <div className="blockquote flex flex-row w-320 h-fit bg-project space-x-10 border-t-1 border-l-1 border-white/25 rounded-lg overflow-hidden p-10 pb-5 shadow-xl shadow-black mb-15">
+            <div className="blockquote flex flex-row w-320 h-fit bg-project space-x-10 border-t-1 border-l-1 border-white/25 rounded-lg overflow-hidden p-10 pb-5 shadow-xl shadow-black mb-8">
                 <div>
                     <h2 className="text-2xl font-bold mb-3">RFID Card Reader System:</h2>
                     <ul className="space-y-4 mb-6">
