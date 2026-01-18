@@ -13,7 +13,7 @@ export function Nav() {
 
     return (
         <>
-            <nav className="w-full z-20 fixed flex items-center justify-self-center justify-center shadow-lg shadow-slate-400/50 bg-slate-900/95 w-md h-14 rounded-full hover:bg-slate-700 hover:scale-105 transition-all duration-300 cursor-pointer">
+            <nav className="w-full z-20 fixed md:flex hidden items-center justify-self-center justify-center shadow-lg shadow-slate-400/50 bg-slate-900/95 w-md h-14 rounded-full hover:bg-slate-700 hover:scale-105 transition-all duration-300 cursor-pointer">
                 <ul className="flex flex-row font-medium mt-0 rtl:space-x-reverse text-sm">
                     {links.map((link) => (
                         <li key={link.path}>
