@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function FifthProject() {
     return (
-        <div className="relative flex flex-col md:flex-row md:flex-row-reverse items-center w-full max-w-full md:max-w-screen-xl gap-8 md:gap-10 py-16 border-y-1 md:border-none">
+        <div className="relative flex flex-col md:flex-row md:flex-row-reverse items-center w-full max-w-full xl:max-w-screen-xl gap-8 xl:gap-10 py-16 border-y-1 md:border-none">
 
             <div className="relative w-full md:w-xl md:h-fit flex flex-col items-center gap-5">
 
@@ -29,7 +29,7 @@ export function FifthProject() {
                 <div
                     className="
                         w-full max-w-sm
-                        md:absolute md:-bottom-10 md:left-[120px]
+                        md:absolute md:-bottom-10 xl:left-[120px]
                         bg-project/90 border border-white/25
                         rounded-lg overflow-hidden
                         p-4
@@ -46,7 +46,7 @@ export function FifthProject() {
                 </div>
             </div>
 
-            <div className="w-full md:max-w-[720px] bg-project border border-white/25 rounded-lg p-6 md:p-10 shadow-xl shadow-black">
+            <div className="w-full xl:max-w-[720px] bg-project border border-white/25 rounded-lg p-6 md:p-10 shadow-xl shadow-black">
                 <h2 className="text-xl md:text-2xl font-bold mb-3">
                     Full-Wave Rectifier Power Supply:
                 </h2>

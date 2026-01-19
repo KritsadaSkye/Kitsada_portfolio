@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function SecondProject() {
     return (
-        <div className="relative flex flex-col md:flex-row items-center w-full max-w-full md:max-w-screen-xl gap-8 md:gap-15 z-10 border-y-1 py-15 md:border-none">
+        <div className="relative flex flex-col md:flex-row items-center w-full max-w-full xl:max-w-screen-xl gap-8 md:gap-15 z-10 border-y-1 py-15 md:border-none">
 
             <div className="relative w-full md:w-2xl md:h-[640px] flex flex-col items-center gap-5">
                 <div

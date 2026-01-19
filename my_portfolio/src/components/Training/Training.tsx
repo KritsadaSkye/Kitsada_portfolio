@@ -5,7 +5,7 @@ export function Training() {
     return (
         <section className="relative w-full py-16 ">
             <div className="flex">
-                <div className="hidden md:flex flex-col items-center gap-6 px-6 md:pl-20 mb-16">
+                <div className="hidden xl:flex flex-col items-center gap-6 px-6 xl:pl-20 mb-16">
                     <Image
                         src="/background/training-icon.png"
                         alt="training-icon"
@@ -22,7 +22,7 @@ export function Training() {
                 </div>
 
                 <div className="relative flex flex-col max-w-full px-4 md:px-0 md:pt-3">
-                    <h1 className="text-4xl max-w-full self-center md:self-start md:text-6xl mt-1 font-semibold bg-training-name bg-clip-text text-transparent">
+                    <h1 className="text-4xl max-w-full self-center xl:self-start md:text-6xl mt-1 font-semibold bg-training-name bg-clip-text text-transparent">
                         Training
                     </h1>
 
