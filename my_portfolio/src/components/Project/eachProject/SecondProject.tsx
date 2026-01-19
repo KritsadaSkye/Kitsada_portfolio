@@ -87,7 +87,7 @@ export function SecondProject() {
                         ].map((tool) => (
                             <span
                                 key={tool}
-                                className="px-3 py-1 bg-white/10 rounded-full border border-white/20 text-sm md:text-base text-slate-200"
+                                className="px-3 py-1 bg-white/10 rounded-full border border-white/20 text-xs md:text-lg text-slate-200"
                             >
                                 {tool}
                             </span>
