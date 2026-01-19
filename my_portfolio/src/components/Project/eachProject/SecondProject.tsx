@@ -29,10 +29,8 @@ export function SecondProject() {
                         href="https://github.com/KritsadaSkye/ShabuDashboard"
                         className="mt-4"
                     >
-                        <button className="px-6 py-3 bg-slate-900/95 rounded-full shadow-md">
-                            <span className="text-white text-sm md:text-lg font-medium">
-                                Code
-                            </span>
+                        <button className="px-6 py-2 rounded-full bg-slate-900/90 hover:bg-slate-800 transition shadow-md shadow-slate-400/50 text-sm md:text-lg">
+                            Code
                         </button>
                     </Link>
                 </div>
