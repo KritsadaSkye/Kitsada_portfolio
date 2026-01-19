@@ -33,7 +33,7 @@ export function FourthProject() {
                     </div>
 
                     <div className="mt-6">
-                        <Link href="https://github.com/KritsadaSkye/RFID-CardReaderSystem">
+                        <Link href="https://github.com/KritsadaSkye/Flight-Booking-System-">
                             <button
                                 className="px-6 py-2 rounded-full bg-slate-900/90 hover:bg-slate-800 transition shadow-md shadow-slate-400/50 text-sm md:text-lg">
                                 Code

@@ -17,13 +17,15 @@ export function SecondProject() {
                         shadow-md shadow-black
                         z-10
                     ">
-                    <video
-                        autoPlay loop muted playsInline className="rounded-xl mt-4 w-full">
-                        <source
-                            src="/assets/project/shabu-dash1.mp4"
-                            type="video/mp4"
-                        />
-                    </video>
+                    <div className="w-full aspect-video overflow-hidden rounded-xl mt-4">
+                        <video
+                            autoPlay loop muted playsInline className="w-full h-full object-cover">
+                            <source
+                                src="/assets/project/shabu-dash1.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                    </div>
 
                     <Link
                         href="https://github.com/KritsadaSkye/ShabuDashboard"
