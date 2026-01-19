@@ -6,7 +6,7 @@ import { Social } from "./Social";
 
 export function AboutMe() {
     return (
-        <section className="relative w-full">
+        <section className="relative w-full 3xl:flex flex-col items-center">
             <Image
                 src="/background/home-pattern-1.png"
                 alt="background about"
@@ -20,7 +20,7 @@ export function AboutMe() {
                 height={100}
                 className="show-up-web z-20 top-0 left-10 rounded-e-full hidden md:block" />
 
-            <div className="max-w-screen-2xl mx-auto px-6 py-0 md:px-0">
+            <div className="md:flex flex-col mx-auto 2xl:max-w-screen-2xl px-6 py-0 lg:px-0">
                 <div className="flex flex-col-reverse md:flex-row items-center gap-2">
 
                     <div className="md:w-3/5 flex flex-col text-center md:text-left">
@@ -28,7 +28,7 @@ export function AboutMe() {
                             About Me
                         </h2>
 
-                        <h1 className="text-2xl md:text-5xl font-bold text-white mb-3 md:self-end">
+                        <h1 className="text-2xl md:text-5xl font-bold text-white mb-3 lg:self-end">
                             <TypeAnimation
                                 sequence={[
                                     "Kitsada Trakool-osot",
@@ -42,7 +42,7 @@ export function AboutMe() {
                             />
                         </h1>
 
-                        <p className="text-white/85 text-sm md:text-xl leading-relaxed max-w-2xl mx-auto md:max-w-full md:ml-5">
+                        <p className="text-white/85 text-sm md:text-xl leading-relaxed max-w-2xl mx-auto lg:max-w-full md:ml-5">
                             Hello! I'm Skye, a third-year student at Silpakorn University,
                             majoring in Electronics and Computer Systems Engineering. I have
                             experience in both hardware and software, which helps me

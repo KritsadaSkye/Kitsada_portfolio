@@ -26,7 +26,7 @@ export function Training() {
                         Training
                     </h1>
 
-                    <div className="mt-7 md:mt-20">
+                    <div className="mt-9 lg:mt-20">
                         <CarouselSize />
                     </div>
                 </div>

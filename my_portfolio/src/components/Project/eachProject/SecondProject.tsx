@@ -21,7 +21,7 @@ export function SecondProject() {
                         <video
                             autoPlay loop muted playsInline className="w-full h-full object-cover">
                             <source
-                                src="/assets/project/shabu-dash1.mp4"
+                                src="/assets/project/shabu-dash-muted.mp4"
                                 type="video/mp4"
                             />
                         </video>

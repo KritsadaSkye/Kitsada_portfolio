@@ -42,7 +42,7 @@ export function Project() {
                         alt="cloud-line"
                         width={320}
                         height={200}
-                        className="hidden md:block absolute -bottom-20 -right-50 opacity-80"
+                        className="hidden lg:block absolute -bottom-20 -right-50 opacity-80"
                     />
                 </div>
             </div>
