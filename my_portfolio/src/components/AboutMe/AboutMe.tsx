@@ -24,7 +24,7 @@ export function AboutMe() {
                 <div className="flex flex-col-reverse md:flex-row items-center gap-2">
 
                     <div className="md:w-3/5 flex flex-col text-center md:text-left">
-                        <h2 className="text-violet-400 text-3xl md:text-6xl font-semibold">
+                        <h2 className="text-violet-400 text-4xl md:text-6xl font-semibold">
                             About Me
                         </h2>
 
@@ -101,7 +101,7 @@ export function AboutMe() {
                     alt="moon art"
                     width={480}
                     height={285}
-                    className="hidden md:block absolute -bottom-20 right-160 opacity-80"
+                    className="hidden xl:block absolute -bottom-20 right-160 opacity-80"
                 />
             </div>
         </section>

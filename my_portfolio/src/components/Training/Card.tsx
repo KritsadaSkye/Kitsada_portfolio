@@ -5,7 +5,7 @@ export function Card({ certificate }: { certificate: Certificate }) {
     return (
         <>
             <div className="p-3">
-                <div className="w-102 h-130 bg-project rounded-xl shadow-2xl box-sizing pb-5 mx-5 border-2 border-gray-400/25 hover:scale-105 transition-transform duration-300">
+                <div className="max-w-xs md:max-w-sm bg-project rounded-xl shadow-2xl box-sizing pb-5 mx-5 border-2 border-gray-400/25 hover:scale-105 transition-transform duration-300">
                     <div className="flex items-center p-3">
                         <div className="px-1">
                             <span className="w-4 h-4 rounded-full inline-block bg-red-500 cursor-pointer"></span>

@@ -2,31 +2,35 @@ import Image from 'next/image'
 import { CarouselSize } from './Carousel'
 
 export function Training() {
-
     return (
-        <>
-            <div className="relative w-full pb-80">
-                <div className="flex items-center pt-10 pb-10">
-                    <Image src="/background/training-icon.png"
+        <section className="relative w-full py-16 ">
+            <div className="flex">
+                <div className="hidden md:flex flex-col items-center gap-6 px-6 md:pl-20 mb-16">
+                    <Image
+                        src="/background/training-icon.png"
                         alt="training-icon"
                         width={100}
                         height={100}
-                        className="ml-10"
                     />
-                    <span className="pb-1 text-6xl font-semibold bg-training-name bg-clip-text text-transparent ml-10 mt-3 z-20">Training</span>
-                </div>
-                <div className="flex">
-                    <Image src="/background/training-line02.png"
+                    <Image
+                        src="/background/training-line02.png"
                         alt="training-line"
                         width={3}
                         height={650}
-                        className="absolute ml-22.5 top-42"
+                        className="hidden md:block"
                     />
-                    <div className="w-full mt-10">
+                </div>
+
+                <div className="relative flex flex-col max-w-full px-4 md:px-0 md:pt-3">
+                    <h1 className="text-4xl max-w-full self-center md:self-start md:text-6xl mt-1 font-semibold bg-training-name bg-clip-text text-transparent">
+                        Training
+                    </h1>
+
+                    <div className="mt-7 md:mt-20">
                         <CarouselSize />
                     </div>
                 </div>
-            </div >
-        </>
+            </div>
+        </section>
     );
 }

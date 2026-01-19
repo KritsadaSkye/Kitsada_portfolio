@@ -1,51 +1,51 @@
-import Image from 'next/image'
-import { FirstProject } from './eachProject/FirstProject'
-import { SecondProject } from './eachProject/SecondProject'
-import { ThirdProject } from './eachProject/ThirdProject'
-import { FourthProject } from './eachProject/FourthProject'
-import { FifthProject } from './eachProject/FifthProject'
+import Image from "next/image";
+import { FirstProject } from "./eachProject/FirstProject";
+import { SecondProject } from "./eachProject/SecondProject";
+import { ThirdProject } from "./eachProject/ThirdProject";
+import { FourthProject } from "./eachProject/FourthProject";
+import { FifthProject } from "./eachProject/FifthProject";
 
 export function Project() {
     return (
-        <>
-            <div className="relative w-full h-auto">
-                <div className="flex items-center pt-10 pb-10">
-                    <Image src="/background/project-icon3.png"
+        <section className="relative w-full pt-16">
+            <div className="flex">
+                <div className="hidden md:flex flex-col items-center gap-6 px-6 md:pl-20 mb-16">
+                    <Image
+                        src="/background/project-icon3.png"
                         alt="project-icon"
-                        width={100}
-                        height={100}
-                        className="ml-10"
+                        width={80}
+                        height={80}
                     />
-                    <span className="text-6xl font-semibold bg-project-name bg-clip-text text-transparent ml-10 mt-2">Projects</span>
-                </div>
-                <div className="flex">
-                    <Image src="/background/project-line03.png"
+                    <Image
+                        src="/background/project-line03.png"
                         alt="project-line"
                         width={4}
-                        height={2920}
-                        className="absolute ml-22.5 top-42"
+                        height={2800}
+                        className="hidden md:block"
                     />
-                    <div className="flex flex-col items-center w-full z-10 gap-y-15">
+                </div>
+                <div className="relative flex flex-col max-w-full px-4 md:px-0 md:pt-3">
+                    <h1 className="text-4xl max-w-full self-center md:self-start md:text-6xl mt-1 font-semibold bg-project-name bg-clip-text text-transparent">
+                        Projects
+                    </h1>
 
+                    <div className="flex flex-col gap-20 mt-7 md:mt-20 md:ml-20">
                         <FirstProject />
-
                         <SecondProject />
-
                         <ThirdProject />
-
                         <FourthProject />
-
                         <FifthProject />
-
-                        <Image src="/background/cloud-line-art.png"
-                            alt="cloud-line"
-                            width={350}
-                            height={210}
-                            className="blockquote absolute bottom-0 right-0"
-                        />
                     </div>
+
+                    <Image
+                        src="/background/cloud-line-art.png"
+                        alt="cloud-line"
+                        width={320}
+                        height={200}
+                        className="hidden md:block absolute -bottom-20 -right-50 opacity-80"
+                    />
                 </div>
             </div>
-        </>
+        </section>
     );
 }

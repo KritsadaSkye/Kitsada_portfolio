@@ -4,15 +4,15 @@ import Link from 'next/dist/client/link';
 export function FirstProject() {
     return (
         <>
-            <div className="blockquote flex flex-row w-320 h-fit bg-project space-x-10 border-t-1 border-l-1 border-white/25 rounded-lg overflow-hidden p-10 pb-7 shadow-xl shadow-black mb-10">
-                <div>
+            <div className="blockquote flex flex-col items-center md:flex-row items-center w-full max-w-full md:max-w-screen-xl bg-project md:space-x-10 border-t-1 border-l-1 border-white/25 rounded-lg overflow-hidden p-10 pb-10 shadow-xl shadow-black mb-10">
+                <div className="flex flex-col content-center">
                     <Image src="/assets/project/test1.png"
                         alt="test-image"
-                        width={1400}
+                        width={500}
                         height={800}
-                        className="mr-10 my-10 rounded-xs shadow-sm shadow-black/75"
+                        className="md:my-10 my-5 rounded-xs md:max-w-md shadow-sm shadow-black/75"
                     />
-                    <div className="flex justify-center space-x-5">
+                    <div className="flex justify-center space-x-5 mb-3">
                         <Link href="https://tailwindcss.com/docs/top-right-bottom-left" className="text-base mb-5">
                             <button className="p-2 px-5 bg-slate-900/95 shadow-md shadow-slate-400/50 rounded-full cursor-pointer"><span className="text-white text-lg font-medium">Website</span></button>
                         </Link>
