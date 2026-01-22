@@ -25,7 +25,7 @@ export function FirstProject() {
                     <h2 className="text-2xl font-bold mb-4">Online Game Account Marketplace:</h2>
                     <ul className="space-y-4">
                         <li>
-                            <span className="font-bold text-lg">Personal Portfolio Website</span>
+                            <span className="font-bold text-lg">Personal Portfolio Website(under development)</span>
                             <p className="text-lg text-slate-300 leading-relaxed mt-1">
                                 TidGame is a full-stack web application for selling game accounts, where I designed and built both the frontend and backend by myself. The system includes user authentication using JWT, product and account management, a shopping cart, and order handling. I used Next.js for the frontend, API routes for the backend, and PostgreSQL with Prisma for the database. I also used Docker to manage the database and pgAdmin, and deployed the system on a Linux server. Through this project, I have gained practical experience in full-stack development and real-world system design.
                             </p>
