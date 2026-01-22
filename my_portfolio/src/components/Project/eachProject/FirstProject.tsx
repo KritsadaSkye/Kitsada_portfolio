@@ -13,7 +13,7 @@ export function FirstProject() {
                         className="md:my-10 my-5 rounded-xs md:max-w-md shadow-sm shadow-black/75"
                     />
                     <div className="flex justify-center space-x-5 mb-3">
-                        <Link href="https://tailwindcss.com/docs/top-right-bottom-left" className="text-base mb-5">
+                        <Link target="_blank" href="http://18.234.52.28:3000/products" className="text-base mb-5">
                             <button className="p-2 px-5 bg-slate-900/95 shadow-md shadow-slate-400/50 rounded-full cursor-pointer"><span className="text-white text-lg font-medium">Website</span></button>
                         </Link>
                         <Link href="https://github.com/KritsadaSkye/TidGame" className="text-base mb-5">
